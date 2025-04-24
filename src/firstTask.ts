@@ -1,5 +1,3 @@
-import { TotalPrice } from "./types.js";
-
 const totalPrice = ({
   price,
   discount,
@@ -21,3 +19,10 @@ const price = totalPrice({
   months: 12,
 });
 console.log(price);
+
+interface TotalPrice {
+  price: number;
+  discount: number | null;
+  isInstallment: boolean;
+  months: number;
+}
