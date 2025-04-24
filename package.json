@@ -1,0 +1,16 @@
+{
+  "name": "tstask",
+  "version": "1.0.0",
+  "description": "TypeScipt task",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}
